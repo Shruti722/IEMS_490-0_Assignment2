@@ -67,7 +67,17 @@ python unit_test.py
 This computes accuracy, macro-F1, and prints the confusion matrix for both models.
 
 ---
-## Notebook: LLM_Assignment2.ipynb
+## Notebook Access
+
+You can view or run the full workflow for **Assignment 2 – Social Media Sentiment (TweetEval)** using the following notebooks:
+
+| Version | Description | Link |
+|----------|--------------|------|
+| **Colab (Interactive)** | Includes progress bars, widget outputs, and visualizations. Recommended for full reproducibility. | [Open in Colab](https://colab.research.google.com/github/Shruti722/IEMS_490-0_Assignment2/blob/main/LLM_Assignment2.ipynb) |
+| **GitHub (Clean Preview)** | Widget metadata removed for compatibility with GitHub’s viewer. Use for quick code & markdown review. | [View on GitHub](https://github.com/Shruti722/IEMS_490-0_Assignment2/blob/main/LLM_Assignment2_clean.ipynb) |
+
+> **Note:**  
+> If you see “Invalid Notebook” on the GitHub preview, use the **Colab version** instead — this happens when GitHub’s renderer can’t display Jupyter widget metadata.
 
 **Option A — Run in Google Colab (T4 GPU)**
 
