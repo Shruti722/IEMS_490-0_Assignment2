@@ -139,7 +139,7 @@ papermill LLM_Assignment2.ipynb LLM_Assignment2.out.ipynb
 ## Discussion — Base vs Fine-Tuned Models
 
 - **Base Model** (`SmolLM2-360M-Instruct`) already exhibits strong **sentiment understanding** due to large-scale pretraining.  
-- **Fine-Tuned Model** learns domain-specific tweet nuances but shows mild **overfitting**, leading to a slight accuracy drop (−3 pts).  
+- **Fine-Tuned Model** learns domain-specific tweet nuances but shows mild **overfitting**, leading to a slight accuracy drop.  
 - The fine-tuned model performs better on **sarcastic or informal** tweets but is **weaker on balanced or ambiguous** ones.  
 - With additional training (2–3 epochs) or a larger dataset (≥ 2,000 samples), the LoRA fine-tuned model would likely surpass the base model.
 
