@@ -83,9 +83,12 @@ This computes accuracy, macro-F1, and prints the confusion matrix for both model
 
 **Fine-Tuned Model**
 
-[[23 15]
-[10 12]]
-
+{
+  "matrix": [
+    [23, 15],
+    [10, 12]
+  ]
+}
 ---
 
 ## Sample Outputs
