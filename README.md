@@ -10,39 +10,24 @@ The goal is to compare the base model’s performance with the fine-tuned LoRA a
 IEMS_490-0_Assignment2/
 │
 ├── adapters/ # Trained LoRA adapters & checkpoints
-
 │ ├── task-lora/checkpoint-1/ # First training checkpoint (LoRA)
-
 │ └── _unit_lora/checkpoint-20/ # Final training checkpoint (20 epochs)
-
 │
 ├── data/ # TweetEval data splits
-
 │ ├── train.jsonl
-
 │ ├── val.jsonl
-
 │ └── eval_questions.jsonl
-
 │
 ├── outputs/ # Model inference results
-
 │ ├── base_responses.jsonl
-
 │ └── finetuned_responses.jsonl
-
 │
 ├── tmp_unit/ # Small-scale LoRA test runs
-
 │
 ├── train_lora.py # LoRA fine-tuning script
-
 ├── infer.py # Inference & generation for evaluation
-
 ├── unit_test.py # Unit-level dataset / eval sanity checks
-
 └── README.md # You are here
-
 
 ---
 
