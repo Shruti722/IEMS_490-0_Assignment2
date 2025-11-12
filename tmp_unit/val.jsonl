@@ -1,0 +1,2 @@
+{"instruction": "Classify sentiment as POS or NEG.", "input": "This makes me happy.", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "I am disappointed.", "output": "NEG"}

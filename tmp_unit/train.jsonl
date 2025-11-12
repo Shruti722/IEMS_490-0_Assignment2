@@ -1,0 +1,20 @@
+{"instruction": "Classify sentiment as POS or NEG.", "input": "I love this!", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Terrible product.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Absolutely fantastic experience.", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Not worth the money.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "I love this!", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Terrible product.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Absolutely fantastic experience.", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Not worth the money.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "I love this!", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Terrible product.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Absolutely fantastic experience.", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Not worth the money.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "I love this!", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Terrible product.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Absolutely fantastic experience.", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Not worth the money.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "I love this!", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Terrible product.", "output": "NEG"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Absolutely fantastic experience.", "output": "POS"}
+{"instruction": "Classify sentiment as POS or NEG.", "input": "Not worth the money.", "output": "NEG"}
