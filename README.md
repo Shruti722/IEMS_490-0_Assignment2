@@ -67,6 +67,39 @@ python unit_test.py
 This computes accuracy, macro-F1, and prints the confusion matrix for both models.
 
 ---
+## Notebook: LLM_Assignment2.ipynb
+
+Option A — Run in Google Colab (T4 GPU)
+
+1. Open the notebook in Colab (Runtime → Change runtime type → GPU (T4)).
+2. Run the Setup cell; it will:
+   - create ~/drive/MyDrive/LLM_Assignment_2 if needed,
+   - install dependencies,
+   - place outputs in outputs/ and adapters in adapters/.
+3. Run all cells (Runtime → Run all).
+   - The notebook executes: data prep → training → inference → metrics.
+
+Handy Colab shell cells you can use if needed:
+```bash
+# Create the working folder in Drive (if you want to mirror CLI layout)
+mkdir -p /content/drive/MyDrive/LLM_Assignment_2
+```
+Option B — Run on DeepDish via Notebook
+
+If you prefer a notebook on DeepDish:
+```bash
+module load python/3.10
+python -m venv ~/venvs/llm && source ~/venvs/llm/bin/activate
+pip install jupyterlab torch transformers peft datasets evaluate scikit-learn accelerate
+
+# (Option 1) Start JupyterLab and port-forward (recommended in NU docs)
+jupyter lab --no-browser --port 8888
+
+# (Option 2) Execute the notebook headlessly
+pip install papermill
+papermill LLM_Assignment2.ipynb LLM_Assignment2.out.ipynb
+```
+
 
 ## Results
 
