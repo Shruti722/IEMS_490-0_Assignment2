@@ -69,7 +69,7 @@ This computes accuracy, macro-F1, and prints the confusion matrix for both model
 ---
 ## Notebook: LLM_Assignment2.ipynb
 
-Option A — Run in Google Colab (T4 GPU)
+**Option A — Run in Google Colab (T4 GPU)**
 
 1. Open the notebook in Colab (Runtime → Change runtime type → GPU (T4)).
 2. Run the Setup cell; it will:
@@ -84,7 +84,7 @@ Handy Colab shell cells you can use if needed:
 # Create the working folder in Drive (if you want to mirror CLI layout)
 mkdir -p /content/drive/MyDrive/LLM_Assignment_2
 ```
-Option B — Run on DeepDish via Notebook
+**Option B — Run on DeepDish via Notebook**
 
 If you prefer a notebook on DeepDish:
 ```bash
