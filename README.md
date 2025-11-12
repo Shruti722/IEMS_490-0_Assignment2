@@ -7,6 +7,7 @@ The goal is to compare the base model’s performance with the fine-tuned LoRA a
 ---
 
 ## Repository Structure
+```
 IEMS_490-0_Assignment2/
 │
 ├── adapters/                       # Trained LoRA adapters & checkpoints
@@ -27,8 +28,8 @@ IEMS_490-0_Assignment2/
 ├── train_lora.py                   # LoRA fine-tuning script
 ├── infer.py                        # Inference & generation for evaluation
 ├── unit_test.py                    # Unit-level dataset / eval sanity checks
-└── README.md                       # You are here 
-
+└── README.md                       # You are here
+```
 ---
 
 ## Environment Setup
@@ -78,15 +79,15 @@ This computes accuracy, macro-F1, and prints the confusion matrix for both model
 ### Confusion Matrices
 
 **Base Model**
-
+```
 [[22 16]
  [ 7 15]]
- 
+``` 
 **Fine-Tuned Model**
-
+```
 [[23 15]
- [ 10 12]]
-
+ [10 12]]
+```
 ---
 
 ## Sample Outputs
