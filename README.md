@@ -28,6 +28,7 @@ IEMS_490-0_Assignment2/
 ├── train_lora.py                   # LoRA fine-tuning script
 ├── infer.py                        # Inference & generation for evaluation
 ├── unit_test.py                    # Unit-level dataset / eval sanity checks
+├── LLM_Assignment2.ipynb # End-to-end notebook (Colab/DeepDish)
 └── README.md                       # You are here
 ```
 ---
